@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char word[20];
+    int n,temp=0;
+    printf("enter the word");
+    scanf("%s",word);
+    n=strlen(word);
+    for(int i=0;i<n/2;i++)
+    {
+        if(word[i]!=word[n-i-1])
+        {
+            temp=1;
+            break;
+        }
+    }
+    if(temp==1)
+    {
+        printf("not a palindrome");
+    }
+    else
+    {
+        printf("palindrome");
+    }
+    return 0;
+}
+	
