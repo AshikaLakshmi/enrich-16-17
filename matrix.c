@@ -10,7 +10,7 @@ int main()
   scanf("%d",&k);
   for(i=0;i<m;i++)
   {
-    for(j=0;j>n;j++)
+    for(j=0;j<n;j++)
     {
       if((i+j)==k)
       {
@@ -24,7 +24,7 @@ int main()
   }
   for(i=0;i<m;i++)
   {
-    for(j=0;j>n;j++)
+    for(j=0;j<n;j++)
     {
       printf("%d",a[i][j]);
     }
